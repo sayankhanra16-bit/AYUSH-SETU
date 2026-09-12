@@ -19,3 +19,4 @@ const applicationSchema = new mongoose.Schema({
 applicationSchema.index({ student: 1, opportunity: 1 }, { unique: true });
 
 module.exports = mongoose.model('Application', applicationSchema);
+//hello
